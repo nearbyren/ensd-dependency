@@ -8,25 +8,25 @@
   "list": {
     "ensd_app": [
       {
-        "useModule": true,
+        "useModule": false,
         "module_name": "uikit-module",
         "module_dir": "../ensd-uikit/uikit-module",
         "module_group": "ejiayou.uikit.module:uikit-module"
       },
       {
-        "useModule": true,
+        "useModule": false,
         "module_name": "common-module",
         "module_dir": "../ensd-common/common-module",
         "module_group": "ejiayou.common.module:common-module"
       },
       {
-        "useModule": true,
+        "useModule": false,
         "module_name": "home-module",
         "module_dir": "../ensd-home/home-module",
         "module_group": "ejiayou.home.module:home-module"
       },
       {
-        "useModule": true,
+        "useModule": false,
         "module_name": "home-export",
         "module_dir": "../ensd-home/home-export",
         "module_group": "ejiayou.home.export:home-export"
@@ -136,13 +136,13 @@
     ],
     "ensd_common": [
       {
-        "useModule": true,
+        "useModule": false,
         "module_name": "uikit-module",
         "module_dir": "../ensd-uikit/uikit-module",
         "module_group": "ejiayou.uikit.module:uikit-module"
       },
       {
-        "useModule": true,
+        "useModule": false,
         "module_name": "baidu",
         "module_dir": "../ensd-libs/LocalRepo/baidu",
         "module_group": "ejiayou.libs.module:baidu"
