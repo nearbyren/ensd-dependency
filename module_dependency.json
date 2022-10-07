@@ -1,0 +1,476 @@
+{
+  "//useModuleAll": "true-全部使用本地依赖 false-根据useModule决定依赖",
+  "//useModule": "true-当前组件使用本地依赖 false-当前组件使用远程aar依赖",
+  "//module_name": "本地组件名称",
+  "//module_dir": "本地组件路径",
+  "//module_group": "远程aar依赖路径",
+  "useModuleAll": false,
+  "list": {
+    "ensd_app": [
+      {
+        "useModule": true,
+        "module_name": "uikit-module",
+        "module_dir": "../ensd-uikit/uikit-module",
+        "module_group": "ejiayou.uikit.module:uikit-module"
+      },
+      {
+        "useModule": true,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": true,
+        "module_name": "home-module",
+        "module_dir": "../ensd-home/home-module",
+        "module_group": "ejiayou.home.module:home-module"
+      },
+      {
+        "useModule": true,
+        "module_name": "home-export",
+        "module_dir": "../ensd-home/home-export",
+        "module_group": "ejiayou.home.export:home-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "index-module",
+        "module_dir": "../ensd-index/index-module",
+        "module_group": "ejiayou.index.module:index-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "index-export",
+        "module_dir": "../ensd-index/index-export",
+        "module_group": "ejiayou.index.export:index-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "order-module",
+        "module_dir": "../ensd-order/order-module",
+        "module_group": "ejiayou.order.module:order-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "order-export",
+        "module_dir": "../ensd-order/order-export",
+        "module_group": "ejiayou.order.export:order-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "me-module",
+        "module_dir": "../ensd-me/me-module",
+        "module_group": "ejiayou.me.module:me-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "me-export",
+        "module_dir": "../ensd-me/me-export",
+        "module_group": "ejiayou.me.export:me-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-module",
+        "module_dir": "../ensd-advertise/advertise-module",
+        "module_group": "ejiayou.advertise.module:advertise-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-export",
+        "module_dir": "../ensd-advertise/advertise-export",
+        "module_group": "ejiayou.advertise.export:advertise-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-module",
+        "module_dir": "../ensd-station/station-module",
+        "module_group": "ejiayou.station.module:station-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-export",
+        "module_dir": "../ensd-station/station-export",
+        "module_group": "ejiayou.station.export:station-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "pay-module",
+        "module_dir": "../ensd-pay/pay-module",
+        "module_group": "ejiayou.pay.module:pay-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "pay-export",
+        "module_dir": "../ensd-pay/pay-export",
+        "module_group": "ejiayou.pay.export:pay-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "login-module",
+        "module_dir": "../ensd-login/login-module",
+        "module_group": "ejiayou.login.module:login-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "login-export",
+        "module_dir": "../ensd-login/login-export",
+        "module_group": "ejiayou.login.export:login-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "coupon-module",
+        "module_dir": "../ensd-coupon/coupon-module",
+        "module_group": "ejiayou.coupon.module:coupon-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "coupon-export",
+        "module_dir": "../ensd-coupon/coupon-export",
+        "module_group": "ejiayou.coupon.export:coupon-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "push-module",
+        "module_dir": "../ensd-push/push-module",
+        "module_group": "ejiayou.push.module:push"
+      }
+    ],
+    "ensd_common": [
+      {
+        "useModule": true,
+        "module_name": "uikit-module",
+        "module_dir": "../ensd-uikit/uikit-module",
+        "module_group": "ejiayou.uikit.module:uikit-module"
+      },
+      {
+        "useModule": true,
+        "module_name": "baidu",
+        "module_dir": "../ensd-libs/LocalRepo/baidu",
+        "module_group": "ejiayou.libs.module:baidu"
+      }
+    ],
+    "ensd_uikit": [
+
+    ],
+    "ensd_push": [
+
+    ],
+    "ensd_home": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "index-module",
+        "module_dir": "../ensd-index/index-module",
+        "module_group": "ejiayou.index.module:index-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "index-export",
+        "module_dir": "../ensd-index/index-export",
+        "module_group": "ejiayou.index.export:index-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "order-module",
+        "module_dir": "../ensd-order/order-module",
+        "module_group": "ejiayou.order.module:order-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "order-export",
+        "module_dir": "../ensd-order/order-export",
+        "module_group": "ejiayou.order.export:order-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "me-module",
+        "module_dir": "../ensd-me/me-module",
+        "module_group": "ejiayou.me.module:me-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "me-export",
+        "module_dir": "../ensd-me/me-export",
+        "module_group": "ejiayou.me.export:me-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-module",
+        "module_dir": "../ensd-advertise/advertise-module",
+        "module_group": "ejiayou.advertise.module:advertise-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-export",
+        "module_dir": "../ensd-advertise/advertise-export",
+        "module_group": "ejiayou.advertise.export:advertise-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-module",
+        "module_dir": "../ensd-station/station-module",
+        "module_group": "ejiayou.station.module:station-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-export",
+        "module_dir": "../ensd-station/station-export",
+        "module_group": "ejiayou.station.export:station-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "pay-module",
+        "module_dir": "../ensd-pay/pay-module",
+        "module_group": "ejiayou.pay.module:pay-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "pay-export",
+        "module_dir": "../ensd-pay/pay-export",
+        "module_group": "ejiayou.pay.export:pay-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "login-module",
+        "module_dir": "../ensd-login/login-module",
+        "module_group": "ejiayou.login.module:login-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "login-export",
+        "module_dir": "../ensd-login/login-export",
+        "module_group": "ejiayou.login.export:login-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "coupon-module",
+        "module_dir": "../ensd-coupon/coupon-module",
+        "module_group": "ejiayou.coupon.module:coupon-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "coupon-export",
+        "module_dir": "../ensd-coupon/coupon-export",
+        "module_group": "ejiayou.coupon.export:coupon-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "push-module",
+        "module_dir": "../ensd-push/push-module",
+        "module_group": "ejiayou.push.module:push"
+      }
+    ],
+    "ensd_index": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-export",
+        "module_dir": "../ensd-advertise/advertise-export",
+        "module_group": "ejiayou.advertise.export:advertise-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-export",
+        "module_dir": "../ensd-station/station-export",
+        "module_group": "ejiayou.station.export:station-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "me-export",
+        "module_dir": "../ensd-me/me-export",
+        "module_group": "ejiayou.me.export:me-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "pay-export",
+        "module_dir": "../ensd-pay/pay-export",
+        "module_group": "ejiayou.pay.export:pay-export"
+      }
+    ],
+    "ensd_order": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-export",
+        "module_dir": "../ensd-station/station-export",
+        "module_group": "ejiayou.station.export:station-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "pay-export",
+        "module_dir": "../ensd-pay/pay-export",
+        "module_group": "ejiayou.pay.export:pay-export"
+      }
+    ],
+    "ensd_me": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-export",
+        "module_dir": "../ensd-advertise/advertise-export",
+        "module_group": "ejiayou.advertise.export:advertise-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-export",
+        "module_dir": "../ensd-station/station-export",
+        "module_group": "ejiayou.station.export:station-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "coupon-export",
+        "module_dir": "../ensd-coupon/coupon-export",
+        "module_group": "ejiayou.coupon.export:coupon-export"
+      }
+    ],
+    "ensd_advertise": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "station-export",
+        "module_dir": "../ensd-station/station-export",
+        "module_group": "ejiayou.station.export:station-export"
+      }
+    ],
+    "ensd_station": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "pay-export",
+        "module_dir": "../ensd-pay/pay-export",
+        "module_group": "ejiayou.pay.export:pay-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "me-export",
+        "module_dir": "../ensd-me/me-export",
+        "module_group": "ejiayou.me.export:me-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "order-export",
+        "module_dir": "../ensd-order/order-export",
+        "module_group": "ejiayou.order.export:order-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "coupon-export",
+        "module_dir": "../ensd-coupon/coupon-export",
+        "module_group": "ejiayou.coupon.export:coupon-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-export",
+        "module_dir": "../ensd-advertise/advertise-export",
+        "module_group": "ejiayou.advertise.export:advertise-export"
+      }
+    ],
+    "ensd_pay": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "advertise-export",
+        "module_dir": "../ensd-advertise/advertise-export",
+        "module_group": "ejiayou.advertise.export:advertise-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "coupon-export",
+        "module_dir": "../ensd-coupon/coupon-export",
+        "module_group": "ejiayou.coupon.export:coupon-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "order-export",
+        "module_dir": "../ensd-order/order-export",
+        "module_group": "ejiayou.order.export:order-export"
+      },
+      {
+        "useModule": false,
+        "module_name": "yinlian",
+        "module_dir": "../ensd-libs/LocalRepo/yinlian",
+        "module_group": "ejiayou.libs.module:yinlian"
+      }
+    ],
+    "ensd_coupon": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "me-export",
+        "module_dir": "../ensd-me/me-export",
+        "module_group": "ejiayou.me.export:me-export"
+      }
+    ],
+    "ensd_login": [
+      {
+        "useModule": false,
+        "module_name": "common-module",
+        "module_dir": "../ensd-common/common-module",
+        "module_group": "ejiayou.common.module:common-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "auth",
+        "module_dir": "../ensd-libs/LocalRepo/auth",
+        "module_group": "ejiayou.libs.module:auth"
+      },
+      {
+        "useModule": false,
+        "module_name": "authucarsh",
+        "module_dir": "../ensd-libs/LocalRepo/authucarsh",
+        "module_group": "ejiayou.libs.module:authucarsh"
+      },
+      {
+        "useModule": false,
+        "module_name": "authlog",
+        "module_dir": "../ensd-libs/LocalRepo/authlog",
+        "module_group": "ejiayou.libs.module:authlog"
+      },
+      {
+        "useModule": false,
+        "module_name": "authmain",
+        "module_dir": "../ensd-libs/LocalRepo/authmain",
+        "module_group": "ejiayou.libs.module:authmain"
+      }
+    ]
+  }
+}
