@@ -28,8 +28,20 @@ def includeAndSwitchModuleDep() {
                     println "afterEvaluate switch app = $it.module_name - $it.module_dir"
                 }
                 break
+            case "ensd_web":
+                moduleDepList = obj.list.ensd_web
+                moduleDepList.forEach {
+                    println "afterEvaluate switch app = $it.module_name - $it.module_dir"
+                }
+                break
             case "ensd_uikit":
                 moduleDepList = obj.list.ensd_uikit
+                moduleDepList.forEach {
+                    println "afterEvaluate switch app = $it.module_name - $it.module_dir"
+                }
+                break
+            case "ensd_ribut":
+                moduleDepList = obj.list.ensd_ribut
                 moduleDepList.forEach {
                     println "afterEvaluate switch app = $it.module_name - $it.module_dir"
                 }
@@ -133,9 +145,9 @@ def switchToModuleDependency(boolean useModuleAll, List<Object> moduleDepList) {
         void afterEvaluate(Project projectObj, ProjectState state) {
             println "project name is $projectObj"
             println "afterEvaluate project.configurations=${projectObj.configurations}"
-            if (projectObj.name != "app") {
-                return
-            }
+            // if (projectObj.name != "app") {
+            //     return
+            // }
             switchModuleDep(projectObj, useModuleAll, moduleDepList)
         }
     })
