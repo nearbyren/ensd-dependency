@@ -21,6 +21,12 @@
       },
       {
         "useModule": true,
+        "module_name": "log-module",
+        "module_dir": "../ensd-log/log-module",
+        "module_group": "ejiayou.log.module:log-module"
+      },
+      {
+        "useModule": true,
         "module_name": "web-module",
         "module_dir": "../ensd-web/web-module",
         "module_group": "ejiayou.web.module:web-module"
@@ -586,9 +592,17 @@
         "module_name": "uikit-module",
         "module_dir": "../ensd-uikit/uikit-module",
         "module_group": "ejiayou.uikit.module:uikit-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "log-module",
+        "module_dir": "../ensd-log/log-module",
+        "module_group": "ejiayou.log.module:log-module"
       }
     ],
     "ensd_uikit": [
+    ],
+    "ensd_log": [
     ],
     "ensd_ribut": [
     ],
