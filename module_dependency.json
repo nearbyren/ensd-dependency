@@ -1,9 +1,9 @@
 {
-  "//useModuleAll": "true-全部使用本地依赖 false-根据useModule决定依赖",
-  "//useModule": "true-当前组件使用本地依赖 false-当前组件使用远程aar依赖",
-  "//module_name": "本地组件名称",
-  "//module_dir": "本地组件路径",
-  "//module_group": "远程aar依赖路径",
+  "useModuleAll": "true-全部使用本地依赖 false-根据useModule决定依赖",
+  "useModule": "true-当前组件使用本地依赖 false-当前组件使用远程aar依赖",
+  "module_name": "本地组件名称",
+  "module_dir": "本地组件路径",
+  "module_group": "远程aar依赖路径",
   "useModuleAll": false,
   "list": {
     "ensd_app": [
@@ -18,24 +18,6 @@
         "module_name": "common-module",
         "module_dir": "../ensd-common/common-module",
         "module_group": "ejiayou.common.module:common-module"
-      },
-      {
-        "useModule": false,
-        "module_name": "log-module",
-        "module_dir": "../ensd-log/log-module",
-        "module_group": "ejiayou.log.module:log-module"
-      },
-      {
-        "useModule": false,
-        "module_name": "web-module",
-        "module_dir": "../ensd-web/web-module",
-        "module_group": "ejiayou.web.module:web-module"
-      },
-      {
-        "useModule": false,
-        "module_name": "web-export",
-        "module_dir": "../ensd-web/web-export",
-        "module_group": "ejiayou.web.export:web-export"
       },
       {
         "useModule": false,
@@ -99,6 +81,18 @@
       },
       {
         "useModule": false,
+        "module_name": "web-module",
+        "module_dir": "../ensd-web/web-module",
+        "module_group": "ejiayou.web.module:web-module"
+      },
+      {
+        "useModule": false,
+        "module_name": "web-export",
+        "module_dir": "../ensd-web/web-export",
+        "module_group": "ejiayou.web.export:web-export"
+      },
+      {
+        "useModule": false,
         "module_name": "station-module",
         "module_dir": "../ensd-station/station-module",
         "module_group": "ejiayou.station.module:station-module"
@@ -150,6 +144,12 @@
         "module_name": "push-module",
         "module_dir": "../ensd-push/push-module",
         "module_group": "ejiayou.push.module:push"
+      },
+      {
+        "useModule": false,
+        "module_name": "log-module",
+        "module_dir": "../ensd-log/log-module",
+        "module_group": "ejiayou.log.module:log-module"
       },
       {
         "useModule": false,
@@ -523,6 +523,12 @@
         "module_dir": "../ensd-common/common-module",
         "module_group": "ejiayou.common.module:common-module"
       },
+     {
+        "useModule": false,
+        "module_name": "aop-module",
+        "module_dir": "../ensd-aop/aop-module",
+        "module_group": "ejiayou.aop.module:aop"
+      },
       {
         "useModule": false,
         "module_name": "auth",
@@ -599,8 +605,11 @@
         "module_dir": "../ensd-log/log-module",
         "module_group": "ejiayou.log.module:log-module"
       }
+
     ],
     "ensd_uikit": [
+    ],
+     "ensd_aop": [
     ],
     "ensd_log": [
     ],

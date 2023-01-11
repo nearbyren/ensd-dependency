@@ -144,7 +144,7 @@ def switchToModuleDependency(boolean useModuleAll, List<Object> moduleDepList) {
         @Override
         void afterEvaluate(Project projectObj, ProjectState state) {
             println "project name is $projectObj"
-            println "afterEvaluate project.configurations=${projectObj.configurations}"
+            // println "afterEvaluate project.configurations=${projectObj.configurations}"
             // if (projectObj.name != "app") {
             //     return
             // }
